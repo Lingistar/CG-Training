@@ -1,0 +1,11 @@
+Welcome to GitHub Repository!!!...
+User name__Lingistar K
+User email__lingistar275@gmail.com
+
+Create new Repository:
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Lingistar/CG-Training.git
+git push -u origin main
