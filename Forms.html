@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>MY FORM PAGE</h1>
+	<form>
+		<label for="idno">ID:</label>
+		<input type="text" id="idno" value="341" disabled>
+		<br>
+		<label for="idno">ID:</label>
+		<input type="text" id="idno" value="341" readonly>
+		<br>
+		<label for="idno" hidden>ID:</label>
+		<input type="text" id="idno" value="341" hidden>
+		<br>
+	<fieldset> 
+	<legend>Basic Information</legend>
+		<label for="fname">*Name:</label>
+		<input type="text" id="fname" placeholder="Enter the name" required>
+		<br>
+		<label for="em">*Email:</label>
+		<input type="email" id="em" placeholder="Enter the email" required>
+		<br>
+		<label for="pwd">*Password:</label>
+		<input type="password" id="pwd" placeholder="Enter the password" required>
+		<br>
+	</fieldset>
+		<label>*Gender:</label>
+		<input type="radio" id="m" name="gen"><label for="m" required>Male</label>
+		<input type="radio" id="f" name="gen"><label for="f" required>Female</label>
+		<br>
+		<label>Hobbies:</label>
+		<input type="checkbox" id="m" name="hob"><label for="m">Music</label>
+		<input type="checkbox" id="s" name="hob"><label for="s">Sports</label>
+		<input type="checkbox" id="g" name="hob"><label for="g">Games</label>
+		<input type="checkbox" id="b" name="hob"><label for="b">Books</label>
+		<br>
+		<label for="addr">Address:</label>
+		<textarea id="addr" rows="5" cols="50" placeholder="Enter the address"></textarea>
+		<br>
+		<label for="sub">Favourite Subjects:</label>
+		<select id="sub" multiple> <!--we can select multiple values by pressing ctrl-->
+			<option>Tamil</option>
+			<option>English</option>
+			<option>Maths</option>
+			<option>Science</option>
+			<option>Social</option>
+		</select>
+		<br>
+		<label for="city">Cities:</label>
+		<input type="text" list="cities" id="city">
+		   <datalist id="cities">
+			<option>Chennai</option>
+			<option>Bangalore</option>
+			<option>Hydrabad</option>
+		   </datalist>
+		<br> 
+		<button onclick="alert('Ready to submit1');">SUBMIT1</button>(or)
+		<input type="button" value="SUBMIT2" onclick="alert('Ready to submit2');">
+		<br>
+		<input type="submit" value="OK">
+		<input type="reset" value="CANCEL">
+	</form>
+</body>
+</html>
