@@ -1,0 +1,7 @@
+A apple
+B banana
+C cat
+D dog
+E elephant
+F frog
+G goat
